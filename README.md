@@ -23,13 +23,43 @@ will need to complete work on your local machine. The general process is:
 This process should feel familiar from the prework. With that refresher, let's
 get started on your first TypeScript lab. 
 
+## The Activity 
+
+Write a TypeScript function called `prepend` that takes in two parameters, a 
+number and a string. The function should add the provided number amount of 
+spaces in front of the provided string and console log the result. 
+
+**Example output**:
+
+```js
+prepend(5, "The quick fox jumps over the lazy dog")
+// => "     The quick fox jumps over the lazy dog"
+```
+
+Additionally, ensure that the parameters are correctly typed. The first parameter
+should be of type `number` while the second should be type `string`. 
+
+If you've typed your parameters correctly, the following example should throw
+an error: 
+
+```js
+prepend("5", "The quick fox jumps over the lazy dog") 
+```
+
 ## Instructions 
 
-Write a TypeScript function that adds a number of spaces to the front of a
-`string`. The signature of the method should be:
+We've provided a starter file for you to work in: `src/index.ts`. It contains the 
+base function already set up for you. Complete your work for this lab there.
 
-```typescript
-function prepend(numSpaces: number, inputString: string) {
-  // implementation here
-}
-```
+Whenever you're ready to run your code, remember the steps to compiling `.ts` to `.js`
+before you can the resulting `.js` file: 
+
+1. Compile your TypeScript code with `tsc <TS filename>`. For this lab, it would be
+`tsc src/index.ts`. 
+2. Run the compiled JavaScript file with Node.js: `node <JS filename>`. For this lab,
+it would be `tsc src/index.js`. 
+
+Remember to do this each time you make a change you want to test.
+
+> **Note**: This process doesn't seem very efficient, does it? Don't worry, we'll 
+> learn how to streamline it in the next lesson! 
