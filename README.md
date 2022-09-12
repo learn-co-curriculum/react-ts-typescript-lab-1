@@ -5,7 +5,7 @@
 - Write a function with TypeScript 
 - Use TypeScript type annotation 
 
-## Introductions to Labs 
+## Introduction to Labs 
 
 Welcome to your first lab in this course! Throughout this course, you will work 
 on various assignments as you learn new concepts. 
@@ -14,8 +14,7 @@ All assignments are hosted on GitHub. In order to work on them, however, you
 will need to complete work on your local machine. The general process is:
 
 - Click the blue "Fork" button in Canvas (found in the top right corner of the
-  assignment)
-- Create a personal copy (a 'fork') of the assignment in GitHub
+  assignment). This will create a personal copy (a 'fork') of the assignment in GitHub
 - Download your personal copy (referred to as 'cloning') to your computer
 - Complete the required work
 - Submit your completed work to Canvas
@@ -26,8 +25,8 @@ get started on your first TypeScript lab.
 ## The Activity 
 
 Write a TypeScript function called `prepend` that takes in two parameters, a 
-number and a string. The function should add the provided number amount of 
-spaces in front of the provided string and console log the result. 
+number and a string. The function should add the number of spaces indicated by
+the first parameter in front of the provided string and console log the result. 
 
 **Example output**:
 
@@ -52,7 +51,7 @@ We've provided a starter file for you to work in: `src/index.ts`. It contains th
 base function already set up for you. Complete your work for this lab there.
 
 Whenever you're ready to run your code, remember the steps to compiling `.ts` to `.js`
-before you can the resulting `.js` file: 
+before you can run the resulting `.js` file: 
 
 1. Compile your TypeScript code with `tsc <TS filename>`. For this lab, it would be
 `tsc src/index.ts`. 
